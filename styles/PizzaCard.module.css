@@ -1,0 +1,49 @@
+.container {
+    width: 22%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 40px;
+  }
+  
+  .image{
+    z-index: 2;
+    cursor: pointer;
+
+  }
+
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFD700;
+  }
+  
+  .price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #282c93;
+  }
+  
+  .desc {
+    text-align: center;
+    color: #282c93;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  
+  @media screen and (max-width: 700px) {
+    .container {
+      width: 100%;
+    }
+  
+    .title {
+      font-size: 30px;
+    }
+  
+    .price,
+    .desc {
+      font-size: 24px;
+    }
+  }
